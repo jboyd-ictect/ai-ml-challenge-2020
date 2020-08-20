@@ -1,0 +1,2 @@
+C:\SVN\EULA-Text-Analytics-AI-dev\EulaWordOnline\EulaWordOnline\obj\Debug\EulaWordOnline.csprojAssemblyReference.cache
+C:\SVN\EULA-Text-Analytics-AI-dev\EulaWordOnline\EulaWordOnline\obj\Debug\EulaWordOnline.csproj.CoreCompileInputs.cache

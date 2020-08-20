@@ -1,0 +1,83 @@
+﻿/* Page-specific styling */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 40px; /* bottom = footer height */
+}
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 60px;
+    width: 100%;
+    background-color: white;
+}
+.hbody {
+    background-color: whitesmoke;
+}
+.eula-btn {
+    background-color: rgb(78,116,126);
+    width: 65%;
+    padding: 5pt;
+    cursor: pointer;
+    text-align: left;
+}
+.eula-btn-flag {
+    background-color: rgb(78,116,126);
+    width: 65%;
+    padding: 5pt;
+    cursor: pointer;
+    text-align: left;
+   
+}
+.review-section {
+   font-size:12pt;
+   color:black;
+}
+.img {
+    width:100%;
+    padding-left: 80pt;
+    padding-right: 50pt;
+}
+
+.ic-footer-text {
+    padding-left: 10pt;
+}
+.body-color {
+    background-color: white;
+}
+.review-btn-section {
+    text-align: left;
+    
+}
+.review-btn-name {
+    font-family: Arial;
+    font-size: 12pt;
+    color: white;
+    text-align: left;
+    /*text-align: center;*/
+}
+.ic-footer {
+    background-color: rgb(78,116,126);
+}
+.padding {
+    padding: 15px;
+}
+
+#notification-popup.ms-MessageBanner {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    text-align: left;
+    height: inherit;
+    min-width: inherit;
+}
+
+#notification-popup .ms-MessageBanner-text {
+    margin: 0;
+    padding: 18px 15px;
+    min-width: inherit;
+}

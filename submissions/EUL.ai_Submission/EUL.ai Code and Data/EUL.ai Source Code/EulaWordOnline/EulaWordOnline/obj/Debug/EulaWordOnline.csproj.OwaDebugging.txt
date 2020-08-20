@@ -1,0 +1,7 @@
+False
+a6bc8aa8-199e-4e39-b813-449e9f5eba6bc6f59186-4d67-46f3-b0dc-d3d71c6e4a27
+{be08f59b-1e6f-4633-9351-ed59cc30b927}{0beb120f-d87f-40ee-b892-2cafa34a2289}
+{ed7085c3-a2f1-4231-b887-1cf23735a91f}
+1.0.0.0
+EulaWordOnline
+_layouts/15/

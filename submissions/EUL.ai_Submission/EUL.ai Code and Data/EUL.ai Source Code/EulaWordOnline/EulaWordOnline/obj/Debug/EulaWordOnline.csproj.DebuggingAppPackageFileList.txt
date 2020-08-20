@@ -1,0 +1,2 @@
+bin\Debug\OfficeAppManifests\EulaWordOnlineManifest.xml
+C:\SVN\EULA-Text-Analytics-AI-dev\EulaWordOnline\EulaWordOnline\bin\Debug\EulaWordOnline.debugapp
