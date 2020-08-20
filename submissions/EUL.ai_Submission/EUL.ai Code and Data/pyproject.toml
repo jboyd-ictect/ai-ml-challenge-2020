@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "gsa-eula-challenge"
+version = "0.1.0"
+description = ""
+authors = ["V David Zvenyach <dave@esq.io>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^1.1.2"
+gunicorn = "^20.0.4"
+scikit-learn = "^0.23.2"
+xgboost = "^1.1.1"
+spacy = "^2.3.2"
+tqdm = "^4.48.2"
+pandas = "^1.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

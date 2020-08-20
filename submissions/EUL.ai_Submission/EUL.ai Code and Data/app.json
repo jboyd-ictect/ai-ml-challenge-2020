@@ -1,0 +1,16 @@
+{
+  "env": {
+    "SECRET_KEY": {
+      "generator": "secret"
+    },
+    "STAGING": "1",
+    "DEBUG": "0"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "name": "gsa-eula-challenge",
+  "stack": "container"
+}
