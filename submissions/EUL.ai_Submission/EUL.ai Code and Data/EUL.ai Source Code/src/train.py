@@ -20,7 +20,7 @@ from joblib import dump
 logging.info("Getting things loaded...")
 
 # Load dataset
-df = pd.read_csv("src/data/AI_ML_Challenge_Training_Data_Set_1_v1.csv")
+df = pd.read_csv("./../EUL.ai Input Data/AI_ML_Challenge_Training_Data_Set_1_v1.csv")
 
 
 def remove_punc(row):
@@ -61,8 +61,8 @@ def get_classification_df(data, raw):
     return df
 
 
-train_dict = import_data("src/data/keyPhrase-main.csv")
-test_dict = import_data("src/data/keyPhrase-val.csv")
+train_dict = import_data("./../EUL.ai Input Data/keyPhrase-main.csv")
+test_dict = import_data("./../EUL.ai Input Data/keyPhrase-val.csv")
 main = get_classification_df(train_dict, df)
 
 Y = main["Classification"].tolist()
@@ -78,7 +78,7 @@ count_vect = CountVectorizer(stop_words='english')
 X = count_vect.fit_transform(get_corpus(train_dict))
 X_test = count_vect.transform(get_corpus(test_dict))
 
-pickle.dump(count_vect, open("src/count_vect.pickel", "wb"))
+pickle.dump(count_vect, open("./../EUL.ai Compiled Models/count_vect.pickel", "wb"))
 logging.info("Vectorizer saved...")
 
 logging.info("Splitting data into train/val/test...")
@@ -135,5 +135,5 @@ test_df = test_df[["Clause ID", "prob_acceptable", "classification"]]
 test_df.to_csv("src/results/val_results.csv", index=False)
 
 
-dump(model, "src/models/eula.joblib")
+dump(model, "./../EUL.ai Compiled Models/eula.joblib")
 logging.info("Training complete and model saved...")

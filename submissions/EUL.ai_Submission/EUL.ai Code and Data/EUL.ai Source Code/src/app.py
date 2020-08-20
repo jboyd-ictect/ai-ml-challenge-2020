@@ -15,7 +15,7 @@ from joblib import load
 
 count_vect = pickle.load(open("./count_vect.pickel", "rb"))
 # nlp = spacy.load("en_core_web_sm")
-predictor = load("./models/eula.joblib")
+predictor = load("./../../EUL.ai Compiled Models/eula.joblib")
 logging.info("ML stuff loaded...")
 
 
